@@ -1,5 +1,13 @@
 # Phishing-URL-Analysis
 
+## 🚀 Live Demo
+
+**[https://phishing-url-analysis.streamlit.app/](https://phishing-url-analysis.streamlit.app/)**
+
+> Explore the interactive dashboard live — no installation required.
+
+---
+
 ## Project Overview
 This project presents a comprehensive system for collecting, processing, and analyzing malicious URLs sourced from various open-source threat intelligence feeds. It features an interactive Streamlit-based dashboard designed to visualize key findings related to phishing URLs, encompassing their distribution, associated threat families, daily arrival rates, patterns of Top-Level Domain (TLD) abuse, and distinct structural characteristics.
 
@@ -102,6 +110,8 @@ streamlit run app.py
 ```
 
 This command will typically open the dashboard in your default web browser at `http://localhost:8501`.
+
+You can also access the hosted version directly at **[https://phishing-url-analysis.streamlit.app/](https://phishing-url-analysis.streamlit.app/)** without any local setup.
 
 **Dashboard Interaction:**
 *   **Sidebar Filters**: Use the sidebar to apply filters based on data source (e.g., URLhaus, OpenPhish) and URL scheme (`http`, `https`). These filters dynamically update all charts on the dashboard.
